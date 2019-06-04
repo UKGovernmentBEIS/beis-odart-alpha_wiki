@@ -5,7 +5,15 @@ date:   2019-06-03 14:54:49 +0100
 categories: front-end
 ---
 
+## Outline of work
 
-{% highlight ruby %}
-Hello world!
-{% endhighlight %}
+The front-end work completed in alpha primarily focused on demonstrating data querying.
+* A common pain point discovered in user research sessions was the large amount time spent answering questions or FOI requests.
+  * Both delivery partners and BEIS users had to search through thousands of rows of data to find specific information.
+* By setting up a taxonomy driven search and filter system, this time can be reduced by allowing users to filter data quickly by quarter, country, category or description.
+  * This was built using both pre-populated drop-downs and a keyword search system.
+
+## Links to work completed
+* [View the work here](https://beis-odart-alpha-frontend.herokuapp.com)
+* [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend)
+* [The JSON data used on GitHub](https://github.com/luka-alexander/beis-odart-alpha-data)
