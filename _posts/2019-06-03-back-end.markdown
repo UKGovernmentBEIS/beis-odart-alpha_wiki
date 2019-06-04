@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Back-end development"
+title:  "Back-end handover"
 date:   2019-06-03 14:54:49 +0100
-categories: back-end, development
+categories: back-end
 ---
 
 

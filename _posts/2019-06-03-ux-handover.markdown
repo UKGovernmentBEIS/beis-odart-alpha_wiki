@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Front-end handover"
+title:  "UX / Interaction Design handover"
 date:   2019-06-03 14:54:49 +0100
-categories: front-end
+categories: ux
 ---
 
 
