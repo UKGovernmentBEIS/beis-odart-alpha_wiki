@@ -2,7 +2,7 @@
 layout: post
 title:  "Front-end handover"
 date:   2019-06-03 14:54:49 +0100
-categories: front-end
+categories: handover
 ---
 
 ## Outline of work
@@ -29,4 +29,4 @@ The build comprises a web application built in React, which was chosen as it is 
 ## Links to work
 * [View the work here](https://beis-odart-alpha-frontend.herokuapp.com){:target="_blank"}  
 * [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend){:target="_blank"}  
-* [The JSON data used on GitHub](https://github.com/luka-alexander/beis-odart-alpha-data){:target="_blank"}  
+* [The JSON data used on GitHub](https://github.com/digi2al/beis-odart-alpha-data){:target="_blank"}  
