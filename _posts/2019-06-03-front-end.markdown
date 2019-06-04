@@ -13,7 +13,20 @@ The front-end work completed in alpha primarily focused on demonstrating data qu
 * By setting up a taxonomy driven search and filter system, this time can be reduced by allowing users to filter data quickly by quarter, country, category or description.
   * This was built using both pre-populated drop-downs and a keyword search system.
 
-## Links to work completed
-* [View the work here](https://beis-odart-alpha-frontend.herokuapp.com)
-* [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend)
-* [The JSON data used on GitHub](https://github.com/luka-alexander/beis-odart-alpha-data)
+### Build Tools
+
+The front-end was designed using classes and SASS styles from the [GovUK front-end repository](https://github.com/alphagov/govuk-frontend/){:target="_blank"}  . It was installed as an npm package using the following command:
+
+
+{% highlight ruby %}
+npm install govuk-frontend
+{% endhighlight %}
+
+The pages have been structured as per the UX designs which can be found here: [ux designs](https://govuk-beis-odart-ux.herokuapp.com/){:target="_blank"}  .
+
+The build comprises a web application built in React, which was chosen as it is open source, well documented and due to its single-page abilities is able to load and query large quantities of data very quickly.
+
+## Links to work
+* [View the work here](https://beis-odart-alpha-frontend.herokuapp.com){:target="_blank"}  
+* [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend){:target="_blank"}  
+* [The JSON data used on GitHub](https://github.com/luka-alexander/beis-odart-alpha-data){:target="_blank"}  
