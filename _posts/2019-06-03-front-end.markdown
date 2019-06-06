@@ -5,6 +5,11 @@ date:   2019-06-03 14:54:49 +0100
 categories: handover
 ---
 
+## Links to work
+* [View the work here](https://beis-odart-alpha-frontend.herokuapp.com){:target="_blank"}  
+* [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend){:target="_blank"}  
+* [The JSON data used on GitHub](https://github.com/digi2al/beis-odart-alpha-data){:target="_blank"}  
+
 ## Outline of work
 
 The front-end work completed in alpha primarily focused on demonstrating data querying.
@@ -13,10 +18,43 @@ The front-end work completed in alpha primarily focused on demonstrating data qu
 * By setting up a taxonomy driven search and filter system, this time can be reduced by allowing users to filter data quickly by quarter, country, category or description.
   * This was built using both pre-populated drop-downs and a keyword search system.
 
+### Installation
+
+The front-end code package uses React and a set of dependencies that can be installed using Node and NPM (Node Package Manager).
+React was chosen as it is open source, well documented and due to its single-page abilities is able to load and query large quantities of data very quickly.
+
+Install Node on your computer (NPM is included as part of Node):
+https://nodejs.org/en/
+
+Then fork or download the front-end code from the GitHub repository.
+
+Enter into the repository directory on your computer:
+
+{% highlight ruby %}
+cd beis-odart-alpha-frontend
+{% endhighlight %}
+
+
+Then use the following command to install all dependencies:
+{% highlight ruby %}
+npm install
+{% endhighlight %}
+
+Then use the following command to start the React development app on a webpack server, then navigate to http://localhost:3000
+{% highlight ruby %}
+npm start
+{% endhighlight %}
+
+To create a production ready build of the React project, run the following:
+{% highlight ruby %}
+npm run build
+{% endhighlight %}
+
+
 ### Build Tools
 
-The front-end was designed using classes and SASS styles from the [GovUK front-end repository](https://github.com/alphagov/govuk-frontend/){:target="_blank"}  . It was installed as an npm package using the following command:
-
+The front-end was designed using classes and SASS styles from the [GovUK front-end repository](https://github.com/alphagov/govuk-frontend/){:target="_blank"}.
+The govuk frontend can be installed into any project as an npm package using the following command:
 
 {% highlight ruby %}
 npm install govuk-frontend
@@ -24,9 +62,9 @@ npm install govuk-frontend
 
 The pages have been structured as per the UX designs which can be found here: [ux designs](https://govuk-beis-odart-ux.herokuapp.com/){:target="_blank"}  .
 
-The build comprises a web application built in React, which was chosen as it is open source, well documented and due to its single-page abilities is able to load and query large quantities of data very quickly.
+## Assessment Considerations
 
-## Links to work
-* [View the work here](https://beis-odart-alpha-frontend.herokuapp.com){:target="_blank"}  
-* [The complete work on GitHub](https://github.com/digi2al/beis-odart-alpha-frontend){:target="_blank"}  
-* [The JSON data used on GitHub](https://github.com/digi2al/beis-odart-alpha-data){:target="_blank"}  
+The main consideration to take away from the alpha assessment is users who may disable JavaScript on their computers.
+React applications rendered client-side will not work for these users, and rendering server-side will remove a lot of the benefits of using React as the framework of choice.
+
+None of the current users of the service disable JavaScript, however the recommendation was that the system or processes be robust enough to host these users if they appear in the future.
