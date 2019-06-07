@@ -35,5 +35,5 @@ This document suggests the next steps for research in the private Beta phase of 
 
 3. Test prototype(s) with users across all groups if possible
   * Review existing prototypes & last user testing from Alpha and consider iterating on the prototypes
-  * Test your prototypes regularly across user groups to generate meaningful insights for development
-    * Consider testing every sprint/ fortnightly to optimise learning
+    * Test your prototypes regularly across user groups to generate meaningful insights for development
+      * Consider testing every sprint/ fortnightly to optimise learning
