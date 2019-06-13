@@ -5,6 +5,4 @@
 layout: home
 ---
 
-## Wiki information
-
-[Link to the GitHub for this wiki](https://github.com/digi2al/beis-odart-alpha_wiki){:target="_blank"}
+## BEIS ODART Alpha Wiki
